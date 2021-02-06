@@ -1,0 +1,55 @@
+.store_locator_map_infowindow {
+	width:380px;
+	overflow:hidden !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	color: black !important;
+	font-family: arial,sans-serif !important;	
+	line-height: normal !important;
+}
+
+/*
+Current Location Display
+*/
+.store_locator_current_location {
+	background:#eae9e9;
+	padding:5px;
+	margin-bottom:10px;
+}
+
+/*
+Sidebar Customization
+*/
+.store_locator_sidebar {
+	border-bottom:1px solid #dcdcdc;
+	margin-bottom: 5px;
+}
+.store_locator_sidebar_entry {
+	padding:5px;
+	margin-bottom:10px;
+	overflow:hidden;
+}
+.store_locator_sidebar_entry:hover {
+	background: #eee;
+	cursor: pointer;
+}
+.store_locator_sidebar_entry_distance {
+	color: red;
+}
+
+/*
+Pagination Display
+*/
+.store_locator_pagination {
+	width:100%;
+	padding:5px;
+	/*border-top:1px solid #dcdcdc;*/
+}
+
+#topMenu li{list-style:none}
+#topMenu{display:block;}
+#topMenu ul{overflow:hidden;background:#eae9e9; padding:0px; margin:0px; margin-bottom:10px;}
+#topMenu ul li{float:left}
+#topMenu ul li a{display:block;padding:11px 10px;text-decoration:none;color:#000;font-size:1.2em;font-weight:bold;line-height:1}
+#topMenu ul li a:hover{background:#9e1b34; color:#fff;}
+#topMenu ul a.current{background:#9e1b34; color:#fff;}
